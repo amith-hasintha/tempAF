@@ -1,0 +1,185 @@
+/* Admin Sidebar & Footer */
+.admin-sidebar {
+  width: 250px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Transaction List Container */
+.transaction-list {
+  margin-left: 500px; /* Space for the sidebar */
+  margin-right: 20px;
+  padding: 40px 30px;
+  min-height: 100vh;
+  max-width: 60vw;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.transaction-list h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Transaction Items */
+.transaction-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Make buttons position relative to the item */
+}
+
+.transaction-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #7f8c8d;
+  flex: 1; /* Allow text to take up available space */
+}
+
+/* Button Container */
+.transaction-item .button-container {
+  position: absolute; /* Fix buttons to the right */
+  right: 20px; /* Adjust spacing from the right edge */
+  display: flex;
+  gap: 10px; /* Add spacing between buttons */
+}
+
+.transaction-item button {
+  padding: 8px 16px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-item button:hover {
+  background-color: #3498db;
+}
+
+.transaction-item button:active {
+  background-color: #2980b9;
+}
+
+/* Edit Form Styles */
+.edit-form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 60px;
+  margin-top: 30px;
+  height: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.edit-form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.edit-form input,
+.edit-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-form input[type="number"] {
+  padding-left: 10px;
+}
+
+.edit-form button {
+  padding: 12px 25px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.edit-form button:hover {
+  background-color: #2ecc71;
+}
+
+.edit-form button:active {
+  background-color: #27ae60;
+}
+
+.edit-form .cancel-button {
+  background-color: #e74c3c;
+}
+
+.edit-form .cancel-button:hover {
+  background-color: #c0392b;
+}
+
+/* Empty State */
+.transaction-list p {
+  font-size: 18px;
+  color: #7f8c8d;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .transaction-list {
+    margin-left: 0;
+  }
+
+  .transaction-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .transaction-item .button-container {
+    position: static; /* Reset position for smaller screens */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .edit-form {
+    padding: 20px;
+  }
+
+  .edit-form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

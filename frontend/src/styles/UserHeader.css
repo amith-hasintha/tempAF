@@ -1,0 +1,93 @@
+/* Header Styles */
+.header {
+    background-color: #157e00;
+    color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 300px;
+    padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo-name h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    color: #d4d4d4;
+    transition: color 0.3s ease-in-out;
+}
+
+.logo-name h1:hover {
+    color: #1f8a50;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #27ae60;
+    transform: translateY(-2px);
+}
+
+/* Logout Button */
+.login-button {
+    background-color: #e74c3c;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    .nav-link, .login-button {
+        width: 100%;
+        text-align: center;
+    }
+}

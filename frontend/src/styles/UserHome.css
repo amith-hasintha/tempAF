@@ -1,0 +1,199 @@
+/* UserHome.css */
+.home-container {
+    padding: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+/* Header Styles */
+.header1{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #00000093;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hed1{
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Financial Overview */
+.financial-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.overview-card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+}
+
+.overview-card h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.overview-card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Quick Actions */
+.quick-actions {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.quick-actions h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Quick Actions Buttons Container */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Action Buttons */
+.action-button {
+    background-color: #28a745;
+    backdrop-filter: blur(10px);
+    color: #000000;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    max-width: 50%;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient Background Animation */
+.action-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 50%;
+    height: 100%;
+    background-color: #48ca37;
+    z-index: -1;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    border-radius: 12px;
+}
+
+.action-button:hover::before {
+    opacity: 1;
+}
+
+.action-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Recent Transactions */
+.recent-transactions {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recent-transactions h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.recent-transactions ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-transactions li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.3s ease;
+}
+
+.recent-transactions li:hover {
+    background: #f8f9fa;
+}
+
+.transaction-date {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.transaction-description {
+    flex-grow: 1;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.transaction-amount {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.transaction-amount.positive {
+    color: #28a745;
+}
+
+.transaction-amount.negative {
+    color: #dc3545;
+}
+.p1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}

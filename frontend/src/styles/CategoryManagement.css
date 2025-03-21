@@ -1,0 +1,63 @@
+.category-management {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .category-management h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-management form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-management input,
+  .category-management button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .category-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .category-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .category-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .category-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  .category-item button:nth-child(2) {
+    background-color: #4caf50;
+  }
+  
+  .category-item button:nth-child(2):hover {
+    background-color: #388e3c;
+  }
+  

@@ -1,0 +1,132 @@
+.transactionList {
+    max-width: 800px;
+    min-height: 60vh;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header12 {
+    display: flex;
+    background-color: #b1b1b1;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+}
+
+.noTransactions {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+.transactionItem {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.transactionDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.amount {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.description {
+    color: #555;
+}
+
+.editContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    align-self: center;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    max-width: 20vw;
+}
+
+.editButton {
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+}
+
+.editButton:hover {
+    background-color: #0056b3;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #a71d2a;
+}
+
+.saveButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.saveButton:hover {
+    background-color: #1e7e34;
+}
+
+.cancelButton {
+    background-color: #ff0000;
+    color: white;
+}
+
+.cancelButton:hover {
+    background-color: #5a6268;
+}
+
+.addButton {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.addButton:hover {
+    background: #0056b3;
+}

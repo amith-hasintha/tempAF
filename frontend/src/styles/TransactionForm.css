@@ -1,0 +1,78 @@
+/* Center the form in the middle of the page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Full viewport height */
+  width: 100%;
+}
+.hd-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* Form styling */
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 400px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Stack children elements */
+}
+
+/* Center heading */
+.heading11 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form field styling */
+.form-group {
+  
+  flex-direction: column; /* Stack label and input vertically */
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Ensure inputs and selects are full width */
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Adjust checkbox alignment */
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Button styling */
+.button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #0056b3;
+}
