@@ -1,7 +1,7 @@
 .admin-sidebar {
     margin-top: 0;
     width: 250px;
-    background: #005c14;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     color: white;
     padding: 20px;
     height: 100vh;
@@ -32,7 +32,7 @@
   }
   
   .admin-sidebar ul li a:hover {
-    background: #287a01;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     border-radius: 4px;
   }
   

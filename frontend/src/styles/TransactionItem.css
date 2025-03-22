@@ -3,36 +3,40 @@
     min-height: 60vh;
     margin: 30px auto;
     padding: 20px;
-    background: #f9f9f9;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #EAEAEA;
 }
 
 .header12 {
     display: flex;
-    background-color: #b1b1b1;
+    background-color: #292945; /* Match UserHome color scheme */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .heading {
     text-align: center;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .noTransactions {
     text-align: center;
     font-style: italic;
-    color: #777;
+    color: #AAAAAA;
 }
 
 .transactionItem {
-    background: #fff;
+    background: #292945;
     padding: 15px;
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    color: #FFFFFF;
 }
 
 .transactionDetails {
@@ -46,12 +50,12 @@
 }
 
 .amount {
-    color: #28a745;
+    color: #21C55D;
     font-weight: bold;
 }
 
 .description {
-    color: #555;
+    color: #BBBBBB;
 }
 
 .editContainer {
@@ -63,9 +67,11 @@
 input, select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #555;
     border-radius: 4px;
     font-size: 16px;
+    background: #33334D;
+    color: #FFFFFF;
 }
 
 button {
@@ -80,44 +86,44 @@ button {
 }
 
 .editButton {
-    background-color: #007bff;
+    background-color: #4A90E2;
     color: white;
     margin-right: 5px;
 }
 
 .editButton:hover {
-    background-color: #0056b3;
+    background-color: #3673C2;
 }
 
 .deleteButton {
-    background-color: #dc3545;
+    background-color: #E74C3C;
     color: white;
 }
 
 .deleteButton:hover {
-    background-color: #a71d2a;
+    background-color: #C0392B;
 }
 
 .saveButton {
-    background-color: #28a745;
+    background-color: #21C55D;
     color: white;
 }
 
 .saveButton:hover {
-    background-color: #1e7e34;
+    background-color: #1A9B47;
 }
 
 .cancelButton {
-    background-color: #ff0000;
+    background-color: #FF4500;
     color: white;
 }
 
 .cancelButton:hover {
-    background-color: #5a6268;
+    background-color: #C03400;
 }
 
 .addButton {
-    background: #007bff;
+    background: #4A90E2;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -128,5 +134,5 @@ button {
 }
 
 .addButton:hover {
-    background: #0056b3;
+    background: #3673C2;
 }

@@ -5,14 +5,14 @@
     margin: 10px auto;
     margin-left: 500px;
     padding: 20px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     border-radius: 8px;
     text-align: center;
     min-height: 100vh;
 }
 
 h1 {
-    color: #333;
+    color: #f8f1f1;
     margin-bottom: 20px;
 }
 
@@ -27,11 +27,11 @@ h1 {
     padding: 12px;
     border-bottom: 1px solid #ddd;
     text-align: left;
-    background-color: #777;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
 }
 
 .user-table th {
-    background: #929292;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     font-weight: bold;
 }
 

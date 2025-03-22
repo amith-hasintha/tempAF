@@ -2,7 +2,7 @@
 .admin-container {
     display: flex;
     min-height: 100vh;
-    background: #f4f4f4;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
 }
 
 /* Main content styling */
@@ -11,7 +11,7 @@
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

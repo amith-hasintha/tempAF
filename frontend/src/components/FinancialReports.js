@@ -63,12 +63,12 @@ const FinancialReports = () => {
       {
         label: 'Income',
         data: Object.values(aggregatedData).map(data => data.income),
-        backgroundColor: '#4ECDC4',
+        backgroundColor: '#00e676',
       },
       {
         label: 'Expenses',
         data: Object.values(aggregatedData).map(data => data.expense),
-        backgroundColor: '#FF6B6B',
+        backgroundColor: '#f8b400',
       },
     ],
   };

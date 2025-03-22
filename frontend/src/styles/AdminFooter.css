@@ -1,6 +1,6 @@
 .admin-footer {
-    background-color: #005c14;
-    color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
+  color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px 0;
     position: fixed;

@@ -24,20 +24,20 @@
   min-height: 100vh;
   max-width: 60vw;
   height: auto;
-  background-color: #ffffff;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
 }
 
 .transaction-list h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 600;
-  color: #34495e;
+  color: #e5ebf1;
   margin-bottom: 20px;
 }
 
 /* Transaction Items */
 .transaction-item {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 15px;
@@ -51,7 +51,7 @@
 .transaction-item p {
   margin: 0;
   font-size: 16px;
-  color: #7f8c8d;
+  color: #eef6f6;
   flex: 1; /* Allow text to take up available space */
 }
 
@@ -83,7 +83,7 @@
 
 /* Edit Form Styles */
 .edit-form {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 8px;
   padding: 60px;
   margin-top: 30px;
@@ -94,14 +94,14 @@
 .edit-form h3 {
   font-size: 22px;
   font-weight: 600;
-  color: #34495e;
+  color: #edf4fa;
   margin-bottom: 20px;
 }
 
 .edit-form label {
   font-size: 16px;
   font-weight: 500;
-  color: #34495e;
+  color: #e8edf1;
   margin-bottom: 5px;
   display: block;
 }

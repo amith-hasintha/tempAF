@@ -12,12 +12,13 @@
   max-width: 1200px;
   margin: 10px auto;
   margin-left: 500px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 8px;
+  color: #fff;
 }
 
 h1, h2, h3 {
-  color: #333;
+  color: #f5f3f3;
   font-weight: 600;
 }
 
@@ -42,7 +43,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -55,13 +56,13 @@ table th, table td {
 }
 
 table th {
-  background: #007bff;
+  background: #083f79;
   color: #fff;
   font-weight: 600;
 }
 
 table tbody tr:hover {
-  background-color: #f1f1f1;
+  background-color: #07213dd3;
 }
 
 button {

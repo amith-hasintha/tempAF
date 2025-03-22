@@ -113,7 +113,7 @@ const ManageBudget = () => {
     <>
       <Header />
       <div className="budget-management">
-        <h1>Budget Management</h1>
+        <h1 className='head'>Budget Management</h1>
         <form onSubmit={handleSubmit} className="budget-form">
           <div className="input-group">
             <select

@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #157e00;
+    background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff;
     padding: 15px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -32,7 +32,7 @@
 }
 
 .logo-name h1:hover {
-    color: #1f8a50;
+    color: #f6d813;
 }
 
 /* Navigation Menu */
@@ -53,7 +53,7 @@
 }
 
 .nav-link:hover {
-    color: #27ae60;
+    color: #f6d813;
     transform: translateY(-2px);
 }
 

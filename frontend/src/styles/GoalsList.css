@@ -4,7 +4,7 @@
   min-height: 50vh;
   margin: 40px auto;
   padding: 20px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   text-align: center;
@@ -14,13 +14,13 @@
 .goals-list-container h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #333;
+  color: #f8f2f2;
   margin-bottom: 20px;
 }
 
 /* Goal Cards */
 .goals-list-card {
-  background: #f8f9fa;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -34,13 +34,13 @@
 
 .goals-list-card h2 {
   font-size: 22px;
-  color: #444;
+  color: #efeaea;
   margin-bottom: 10px;
 }
 
 .goals-list-card p {
   font-size: 16px;
-  color: #666;
+  color: #f3e9e9;
   margin: 5px 0;
 }
 
@@ -55,7 +55,7 @@
 
 .goals-list-progress {
   height: 100%;
-  background: linear-gradient(to right, #4ECDC4, #3AB0A2);
+  background: linear-gradient(to right, #f8b400, #3AB0A2);
   border-radius: 5px;
   transition: width 0.5s ease-in-out;
 }
@@ -78,7 +78,7 @@
 
 .input-container label {
   font-size: 14px;
-  color: #555;
+  color: #f6f1f1;
   margin-bottom: 5px;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .input-container input:focus {
-  border-color: #4ECDC4;
+  border-color: #f8b400;
   outline: none;
 }
 
@@ -114,12 +114,12 @@
 }
 
 .goals-list-actions button:first-child {
-  background: #4ECDC4;
+  background: #f8b400;
   color: white;
 }
 
 .goals-list-actions button:first-child:hover {
-  background: #3AB0A2;
+  background: #f8b400;
 }
 
 .goals-list-actions button:last-child {

@@ -6,7 +6,7 @@
 
 .financial-reports-container h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #d6e0ea;
   margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .report-card {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -32,10 +32,10 @@
 
 .report-card h2 {
   margin: 0;
-  color: #2c3e50;
+  color: #edf0f3;
 }
 
 .report-card p {
   margin: 10px 0;
-  color: #555;
+  color: #eeebeb;
 }

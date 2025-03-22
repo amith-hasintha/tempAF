@@ -8,7 +8,7 @@
   align-items: center;
   margin: 50px auto;
   padding: 30px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   text-align: center;
@@ -31,7 +31,7 @@
 .goalForm h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #222;
+  color: #f7f1f1;
   margin-bottom: 25px;
   text-transform: capitalize;
   letter-spacing: 1.2px;
@@ -51,7 +51,7 @@
 .formGroup1 label {
   font-weight: 600;
   margin-bottom: 6px;
-  color: #333;
+  color: #f2eded;
   font-size: 16px;
   display: block;
 }

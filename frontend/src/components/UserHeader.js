@@ -24,7 +24,6 @@ export default function UserHeader() {
                     <a href="/user-home" className="nav-link">Home</a>
                     <a href="/transaction" className="nav-link">Transactions</a>
                     <a href="/goals-list" className="nav-link">Goals</a>
-                    <a href="#contact" className="nav-link">Contact</a>
                     <button className="nav-link login-button" onClick={handleLogout}>Logout</button>
                 </nav>
             </div>
