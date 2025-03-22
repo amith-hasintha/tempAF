@@ -28,7 +28,7 @@ const Register = () => {
   return (
     <div className="register-page">
       <div className="register-container">
-        <h2>Register</h2>
+        <h2 style={{color:'black'}}>Register</h2>
         {error && <p className="error-message">{error}</p>}
         <form onSubmit={handleSubmit} className="register-form">
           <input type="text" name="name" placeholder="Name" value={form.name} onChange={handleChange} required className="input-field" />
