@@ -2,7 +2,7 @@
     margin-left: 450px;
     display: flex;
     min-height: 100vh;
-    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    background: #1E1E2F; /* Glass effect */
     font-family: 'Inter', sans-serif;
   }
   
@@ -40,7 +40,7 @@
   .user-search label {
     font-size: 18px;
     font-weight: 500;
-    color: #34495e;
+    color: #fbfbfb;
   }
   
   .user-search select {
@@ -50,6 +50,7 @@
     border: 1px solid #ccc;
     background: rgba(255, 255, 255, 0.1); /* Glass effect */
     transition: all 0.3s ease;
+    color: #000;
   }
   
   .user-search select:hover {
@@ -62,16 +63,18 @@
     flex-direction: column;
     gap: 40px;
     align-items: center;
+    color: #0000;
   }
   
   .chart {
-    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    background: #eff2f5; /* Glass effect */
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 900px;
     transition: transform 0.3s ease;
+    color: #0000;
   }
   
   .chart:hover {

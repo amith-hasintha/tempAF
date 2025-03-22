@@ -116,7 +116,7 @@ const AdminReports = () => {
               {/* Charts */}
               <div className="charts-container">
                   <div className="chart">
-                      <h2>Income by Category</h2>
+                      <h2 style={{ color: 'black' }}>Income by Category</h2>
                       <BarChart width={800} height={400} data={incomeChartData}>
                           <CartesianGrid strokeDasharray="3 3" />
                           <XAxis dataKey="name" />
@@ -127,7 +127,7 @@ const AdminReports = () => {
                       </BarChart>
                   </div>
                   <div className="chart">
-                      <h2>Expense by Category</h2>
+                      <h2 style={{ color: 'black' }}>Expense by Category</h2>
                       <PieChart width={800} height={400}>
                           <Pie
                               data={expenseChartData}
