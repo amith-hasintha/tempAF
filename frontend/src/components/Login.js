@@ -20,6 +20,7 @@ const Login = () => {
       const response = await axios.post("http://localhost:5000/api/auth/login", form);
       localStorage.setItem("token", response.data.token);
       alert("Login successful!");
+      console.log(response.data.user);
       response.data.user.role === "admin" ? navigate("/adminhome") : navigate("/user-home");
     } catch (err) {
       setError(err.response?.data?.message || "Login failed");

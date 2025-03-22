@@ -70,7 +70,7 @@ const AdminCategoryManagement = () => {
     <div className="admin-container">
       <AdminSidebar />
       <div className="category-management">
-        <h1>Manage Categories</h1>
+        <h1 style={{color:'white'}}>Manage Categories</h1>
         <form onSubmit={handleSubmit} className="category-form">
           <div className="form-group">
             <label htmlFor="name">Category Name</label>

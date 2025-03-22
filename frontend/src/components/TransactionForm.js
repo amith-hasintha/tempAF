@@ -4,8 +4,10 @@ import UserFooter from "./UserFooter";
 import UserHeader from "./UserHeader";
 import "../styles/TransactionForm.css";
 import { FaPlusCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const TransactionForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     type: "expense",
     amount: "",
@@ -63,6 +65,7 @@ const TransactionForm = () => {
       });
 
       alert("Transaction added successfully!");
+      navigate("/transaction");
     } catch (error) {
       alert(error.response?.data?.msg || "Failed to add transaction. Please try again.");
     }
@@ -78,7 +81,7 @@ const TransactionForm = () => {
           </h2>
 
           <div className="form-group">
-            <label>Type</label>
+            <label style={{color:'white'}}>Type</label>
             <select name="type" value={type} onChange={handleChange}>
               <option value="income">Income</option>
               <option value="expense">Expense</option>
@@ -86,12 +89,12 @@ const TransactionForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Amount</label>
-            <input type="number" name="amount" value={amount} onChange={handleChange} required />
+            <label style={{color:'white'}}>Amount</label>
+            <input style={{width:'100%'}} type="number" name="amount" value={amount} onChange={handleChange} required />
           </div>
 
           <div className="form-group">
-            <label>Category</label>
+            <label style={{color:'white'}}>Category</label>
             <select name="category" value={category} onChange={handleChange}>
               <option value="food">Food</option>
               <option value="transport">Transport</option>
@@ -103,12 +106,12 @@ const TransactionForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Description</label>
+            <label style={{color:'white'}}>Description</label>
             <input type="text" name="description" value={description} onChange={handleChange} />
           </div>
 
           <div className="form-group">
-            <label>Tags (comma-separated)</label>
+            <label style={{color:'white'}}>Tags (comma-separated)</label>
             <input
               type="text"
               name="tags"
@@ -118,7 +121,7 @@ const TransactionForm = () => {
           </div>
 
           <div className="form-group checkbox-group">
-            <label>
+            <label style={{color:'white'}}>
               <input type="checkbox" name="isRecurring" checked={isRecurring} onChange={handleCheckboxChange} />
               Recurring Transaction
             </label>
@@ -127,7 +130,7 @@ const TransactionForm = () => {
           {isRecurring && (
             <>
               <div className="form-group">
-                <label>Recurrence Pattern</label>
+                <label style={{color:'white'}}>Recurrence Pattern</label>
                 <select name="recurrencePattern" value={recurrencePattern} onChange={handleChange}>
                   <option value="daily">Daily</option>
                   <option value="weekly">Weekly</option>
@@ -137,14 +140,14 @@ const TransactionForm = () => {
               </div>
 
               <div className="form-group">
-                <label>Recurrence End Date</label>
+                <label style={{color:'white'}}>Recurrence End Date</label>
                 <input type="date" name="recurrenceEndDate" value={recurrenceEndDate} onChange={handleChange} />
               </div>
             </>
           )}
 
           <div className="form-group">
-            <label>Date</label>
+            <label style={{color:'white'}}>Date</label>
             <input type="date" name="date" value={date} onChange={handleChange} />
           </div>
 

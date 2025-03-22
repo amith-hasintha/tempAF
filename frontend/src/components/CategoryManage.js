@@ -93,7 +93,7 @@ const CategoryManagement = () => {
     <>
       <AdminSidebar/>
       <div className="category-management">
-        <h1>Category Management</h1>
+        <h1 style={{color:'white'}}>Category Management</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
