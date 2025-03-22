@@ -188,7 +188,7 @@ const ManageBudget = () => {
         </div>
 
         <div className="notifications-section">
-          <h2>Notifications</h2>
+          <h2 style={{ color: 'black' }}>Notifications</h2>
           {notifications.length === 0 ? (
             <p>No notifications found.</p>
           ) : (

@@ -25,6 +25,13 @@
   .notification-item.unread {
     background-color: #e3f2fd;
     border-color: #90caf9;
+    color: #000;
+  }
+
+  .notification-item.read {
+    background-color: #e3f2fd;
+    border-color: #90caf9;
+    color: #000;
   }
   
   .notification-content p {

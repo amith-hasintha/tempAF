@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <div className="login-page">
       <div className="login-container">
-        <h2>Login</h2>
+        <h2 style={{ color: 'black' }}>Login</h2>
         {error && <p className="error-message">{error}</p>}
         <form onSubmit={handleSubmit} className="login-form">
           <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} required className="input-field" />
